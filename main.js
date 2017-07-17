@@ -19,11 +19,11 @@ header.style.textAlign="center";
 header.style.fontSize="xx-large";
 
 
-function displayVal(){
-var input = document.querySelector("#display");
-  // console.log(input);
-var keys = document.querySelectorAll("input");
-  // console.log(keys);
-let value = keys.innerHTML;
-
-}
+// function displayVal(){
+// var input = document.querySelector("#display");
+//   // console.log(input);
+// var keys = document.querySelectorAll("input");
+//   // console.log(keys);
+// let value = keys.innerHTML;
+//
+// }
