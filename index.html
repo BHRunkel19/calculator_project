@@ -11,44 +11,47 @@
 <body>
 
 <!-- This is the start of the calculator -->
-<form name="Calculator" class="calculator">
+<form id="calculator">
+  <table id="calc_grid">
 
-<table id="calc_grid">
+    <th><button id="clear" name="clear" value="C">C</button></th>
 
-  <th><input type="button" id="clear" name="clear" value="C"></th>
+    <th colspan="3"><input type="text" name="display" id="display" value=""></th>
 
-  <th colspan="3"><input type="text" name="display" id="display" value="0"></input></th>
+    <tr class="row">
+      <td><button class="num" value="7">7</button></td>
+      <td><button class="num" value="8">8</button></td>
+      <td><button class="num" value="9">9</button></td>
+      <td class="operator"><button id="division" name="division" value="/">/</button></td>
+    </tr>
 
-  <tr class="row">
-    <td><input class="num" type="button" value="7"></td>
-    <td><input class="num" type="button" value="8"></td>
-    <td><input class="num" type="button" value="9"></td>
-    <td class="operator"><input type="button" id="division" name="division" value="/"></td>
-  </tr>
-  <tr class="row">
-    <td><input class="num" type="button" value="4"></td>
-    <td><input class="num" type="button" value="5"></td>
-    <td><input class="num" type="button" value="6"></td>
-    <td class="operator"><input type="button" id="multiplication" name="multiplication" value="*"></td>
-  </tr>
-  <tr class="row">
-    <td><input class="num" type="button" value="1"></td>
-    <td><input class="num" type="button" value="2"></td>
-    <td><input class="num" type="button" value="3"></td>
-    <td class="operator"><input type="button" id="subtraction" name="subtraction" value="-"></td>
-  </tr>
-  <tr class="row">
-    <td><input class="num" type="button" value="0"></td>
-    <td><input class="num" type="button" value="."></td>
-    <td><input id="equals" type="button" value="="></td>
-    <td class="operator"><input type="button" id="addition" name="addition" value="+"></td>
-</table>
+    <tr class="row">
+      <td><button class="num" value="4">4</button></td>
+      <td><button class="num" value="5">5</button></td>
+      <td><button class="num" value="6">6</button></td>
+      <td class="operator"><button id="multiplication" name="multiplication" value="X">X</button></td>
+    </tr>
+
+    <tr class="row">
+      <td><button class="num" value="1">1</button></td>
+      <td><button class="num" value="2">2</button></td>
+      <td><button class="num" value="3">3</button></td>
+      <td class="operator"><button id="subtraction" name="subtraction" value="-">-</button></td>
+    </tr>
+
+    <tr class="row">
+      <td><button class="num" value="0">0</button></td>
+      <td><button class="num" value=".">.</button></td>
+      <td><button class="num" id="equals" value="=">=</button></td>
+      <td class="operator"><button id="addition" name="addition" value="+">+</button></td>
+    </tr>
+  </table>
 </form>
 
-    </table>
+</table>
 
-  <script src="main.js">
+<script src="main.js">
+</script>
+</body>
 
-  </script>
-  </body>
 </html>

@@ -4,25 +4,22 @@
   font-weight: lighter;
 }
 
-.calculator{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  height: 500px;
-  margin: 150px auto;
+#calculator{
+  width: 100%;
 }
 
 
 #calc_grid{
+  border: 10px solid grey;
   box-shadow: 20px 20px 20px #262626;
   background: #39ac39;
-  height: 500px;
   width: 400px;
+  height: inherit;
   text-align: center;
   color: white;
   font-family: sans-serif;
   border-collapse: collapse;
+  margin: 0 auto;
 }
 
 #display{
@@ -51,7 +48,7 @@ tr, th, td{
   color: grey;
 }
 
-input{
+button{
   border: none;
   background-color: inherit;
   color: inherit;
@@ -61,12 +58,7 @@ input{
   margin: 0 auto;
 }
 
-.num:active{
-  color: grey;
-  box-shadow: 0 5px #666;
-}
-
-input:focus{
+button:focus{
   outline: 0
   !important;
 }
@@ -75,11 +67,10 @@ input:focus{
   color: white;
 }
 
-#equals:active{
-  background: #66cc66;
+.num:active{
+  color: grey;
 }
 
 #clear:active{
-  background: #66cc66;
-  box-shadow: 0 5px #666;
+  color: grey;
 }
