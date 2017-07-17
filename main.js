@@ -30,5 +30,7 @@ console.log(buttons);
 
   var clear = document.querySelector('#clear');
   clear.addEventListener('click', function(){
-
+    values = [];
+    display.innerHTML= " ";
+    console.log(values);
   })
