@@ -15,7 +15,6 @@
   background: #39ac39;
   width: 400px;
   height: inherit;
-  text-align: center;
   color: white;
   font-family: sans-serif;
   border-collapse: collapse;
@@ -25,11 +24,10 @@
 #display{
   background-color: inherit;
   width: 250px;
-  height: 100px;
+  height: 50px;
   border: none;
   text-align: right;
   color: inherit;
-  margin-right: 0;
 }
 
 tr, th, td{
@@ -40,12 +38,6 @@ tr, th, td{
 
 .row{
   width: 100%;
-}
-
-.operator{
-  background-color: #66cc66;
-  font-size: inherit;
-  color: grey;
 }
 
 button{
