@@ -4,6 +4,10 @@
   font-weight: lighter;
 }
 
+body{
+  background-image: url("/Users/brandonrunkel/Downloads/math-photos_homepage-1.jpg")
+}
+
 #calculator{
   width: 100%;
 }
@@ -11,14 +15,14 @@
 
 #calc_grid{
   border: 10px solid grey;
-  box-shadow: 20px 20px 20px #262626;
-  background: #39ac39;
+  /*box-shadow: 50px 50px 50px black;*/
+  background: #333333;
   width: 400px;
   height: inherit;
   color: white;
   font-family: sans-serif;
   border-collapse: collapse;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 #display{
@@ -55,14 +59,12 @@ button:focus{
   !important;
 }
 
-.operator:active{
-  color: white;
-}
-
 .num:active{
   color: grey;
+  box-shadow: 5px 5px 5px 5px #99e6e6;
 }
 
 #clear:active{
   color: grey;
+  box-shadow: 5px 5px 5px 5px #99e6e6;
 }
